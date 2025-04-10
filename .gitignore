@@ -1,0 +1,32 @@
+# Node modules
+**/node_modules/
+**/dist/
+
+# Environment variables
+.env
+.env.* 
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# Test output
+coverage/
+*.lcov
+
+# Build artifacts
+*.tsbuildinfo
+
+# IDEs
+.idea/
+*.suo
+*.ntvs_analysis.dat
+*.njsproj
+*.sln
