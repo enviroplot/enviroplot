@@ -1,0 +1,14 @@
+{
+    "extends": "./tsconfig.json",
+    "compilerOptions": {
+      "module": "NodeNext",
+      "moduleResolution": "nodenext",
+      "allowImportingTsExtensions": true,
+      "isolatedModules": true,
+      "noEmit": true
+    },
+    "ts-node": {
+      "esm": true
+    }
+  }
+  
