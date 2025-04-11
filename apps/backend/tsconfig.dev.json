@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "module": "commonjs",                // <-- use commonjs
+    "moduleResolution": "node",          // <-- use classic node resolution
+    "isolatedModules": true,
+    "noEmit": true,
+    "allowImportingTsExtensions": false  // <-- optional: safer for commonjs
+  },
+  "ts-node": {
+    "esm": false                         // <-- important: turn ESM mode off
+  }
+}

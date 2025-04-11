@@ -1,11 +1,5 @@
-import supabase from '../services/supabaseClient.js';
+import { Request, Response } from 'express'
 
-export const parseEsdat = async (req: any, res: any) => {
-  try {
-    const { data, error } = await supabase.from('projects').select('*').limit(1);
-    if (error) throw error;
-    res.status(200).json({ message: 'ESdat parsed successfully', sample: data });
-  } catch (err) {
-    res.status(500).json({ error: 'Failed to parse ESdat' });
-  }
-};
+export const parseEsdat = async (req: Request, res: Response) => {
+  res.status(200).json({ sample: 'it works!' })
+}

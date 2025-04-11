@@ -1,5 +1,5 @@
 export {}
-import supabase from '../services/supabaseClient.js';
+import { supabase } from '../services/supabaseClient'
 
 describe('Supabase Connection Test', () => {
   test('should fetch data from your_table', async () => {

@@ -1,5 +1,14 @@
-import { createClient } from '@supabase/supabase-js'
+import path from 'path'
+import dotenv from 'dotenv'
+import { createClient, SupabaseClient } from '@supabase/supabase-js'
 
-const supabase = createClient(process.env.SUPABASE_URL!, process.env.SUPABASE_KEY!)
+dotenv.config({ path: path.resolve(__dirname, '../../../.env') })
 
-export default supabase
+const supabaseUrl = process.env.SUPABASE_URL
+const supabaseKey = process.env.SUPABASE_KEY
+
+if (!supabaseUrl || !supabaseKey) {
+  throw new Error('SUPABASE_URL and SUPABASE_KEY must be set in .env')
+}
+
+export const supabase: SupabaseClient = createClient(supabaseUrl, supabaseKey)

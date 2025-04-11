@@ -1,5 +1,6 @@
 import { Router } from 'express';
-import { parseEsdat } from '../controllers/parseController';
+import { parseEsdat } from '../controllers/parseController'
+
 
 const router = Router();
 

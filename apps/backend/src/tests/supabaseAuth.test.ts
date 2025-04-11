@@ -1,5 +1,5 @@
 export {}
-import supabase from '../services/supabaseClient.js';
+import { supabase } from '../services/supabaseClient'
 
 describe('Supabase Auth Tests', () => {
   it('should sign up a user', async () => {
