@@ -16,7 +16,7 @@ export default function Login() {
       <input
         type="email"
         className="border w-full p-2"
-        placeholder="you@example.com"
+        placeholder="enviroplot@gmail.com"
         value={email}
         onChange={(e) => setEmail(e.target.value)}
       />
