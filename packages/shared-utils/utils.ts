@@ -1,21 +1,12 @@
-export default {
-  loadModule,
-};
+export default { loadModule }
 
-function loadModule(moduleName: string) {
-  if (typeof window !== 'undefined') {
-    const windowObj: any = window;
-    if (windowObj && windowObj.require) {
-      return windowObj.require(moduleName);
-    }
-  }
-
-  const isNode = Object.prototype.toString.call(typeof process !== 'undefined' ? process : 0) === '[object process]';
-
-  if (isNode) {
-    // eslint-disable-next-line
-    return eval('require')(moduleName);
-  }
-
-  return null;
+function loadModule(name: string) {
+  if (typeof window !== 'undefined' && (window as any).require)
+    return (window as any).require(name)
+  const isNode =
+    Object.prototype.toString.call(
+      typeof process !== 'undefined' ? process : 0,
+    ) === '[object process]'
+  if (isNode) return require(name)
+  return null
 }
