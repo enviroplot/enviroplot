@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Backend API for EnviroPlot Phase II ESA tool",
   "main": "dist/server.js",
+  "type": "module",
   "scripts": {
     "dev": "ts-node --project tsconfig.dev.json src/server.ts",
     "build": "tsc",
@@ -19,6 +20,7 @@
     "morgan": "^1.10.0",
     "multer": "^1.4.5-lts.2",
     "stripe": "^12.18.0",
+    "uuid": "8.3.2",
     "xml2js": "^0.6.2"
   },
   "devDependencies": {

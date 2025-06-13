@@ -1,4 +1,15 @@
 export {}
+
+jest.mock('../services/supabaseClient', () => {
+  return {
+    supabase: {
+      from: () => ({
+        select: async () => ({ data: [{ id: 1 }], error: null }),
+      }),
+    },
+  }
+})
+
 import { supabase } from '../services/supabaseClient'
 
 describe('Supabase Connection Test', () => {

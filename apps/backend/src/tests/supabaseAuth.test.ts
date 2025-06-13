@@ -1,4 +1,18 @@
 export {}
+
+jest.mock('../services/supabaseClient', () => {
+  return {
+    supabase: {
+      auth: {
+        signUp: async ({ email }: { email: string }) => ({
+          data: { user: { email } },
+          error: null,
+        }),
+      },
+    },
+  }
+})
+
 import { supabase } from '../services/supabaseClient'
 
 describe('Supabase Auth Tests', () => {
