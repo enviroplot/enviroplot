@@ -1,0 +1,17 @@
+#species-level-protection {
+  .modal-body {
+    font-size: 0.8rem;
+
+    .title {
+      font-weight: 500;
+      margin-bottom: 0.5rem;
+    }
+    .level-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border: 2px solid gainsboro;
+      padding: 0.8rem;
+    }
+  }
+}

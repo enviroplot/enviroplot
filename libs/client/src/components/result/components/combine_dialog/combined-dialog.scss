@@ -1,0 +1,27 @@
+#combine-chemical-dialog {
+  .modal-body {
+    font-size: 0.9rem;
+    .chemical {
+      width: 16rem;
+      height: 4rem;
+    }
+    .table {
+      font-size: 0.8rem;
+      thead {
+        th {
+          font-weight: bold;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+      tbody {
+        td {
+          vertical-align: middle;
+          text-align: left;
+          padding-left: 0.5rem;
+          height: 2rem;
+        }
+      }
+    }
+  }
+}

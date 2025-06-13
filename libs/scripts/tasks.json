@@ -1,0 +1,482 @@
+[
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "General",
+    "Phase": "0DP1",
+    "Task": "000",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "HSE/SWMS & Project Plans",
+    "Phase": "0DP1",
+    "Task": "001",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Training & Certification (4wd/weed etc)",
+    "Phase": "0DP1",
+    "Task": "002",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Drill Rig Crew (Rig + 2 Operators)",
+    "Phase": "0DP1",
+    "Task": "003",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Consumables (inc U50s, core boxes)",
+    "Phase": "0DP1",
+    "Task": "004",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Backhoe/light rig (Machinery + 1 Operato",
+    "Phase": "0DP1",
+    "Task": "005",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "PVC Casing & Grout (for Geophys.)",
+    "Phase": "0DP1",
+    "Task": "006",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Standpipe (25mm)",
+    "Phase": "0DP1",
+    "Task": "007",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Field Supervisors",
+    "Phase": "0DP1",
+    "Task": "008",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Supervisors Vehicles (inc Fuel & Ins)",
+    "Phase": "0DP1",
+    "Task": "009",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Radio/Sat. Phone hire",
+    "Phase": "0DP1",
+    "Task": "010",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Downhole Seismic Crew & Equipment",
+    "Phase": "0DP1",
+    "Task": "011",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Moisture Content",
+    "Phase": "0DP1",
+    "Task": "012",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Plasticity (Atterberg + Linear Shrinkage",
+    "Phase": "0DP1",
+    "Task": "013",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "PSD Sieve",
+    "Phase": "0DP1",
+    "Task": "014",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "PSD Sieve + Hydrometer",
+    "Phase": "0DP1",
+    "Task": "015",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Shrink Swell/Swell Pressure",
+    "Phase": "0DP1",
+    "Task": "016",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Unit Weight",
+    "Phase": "0DP1",
+    "Task": "017",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Emerson Class",
+    "Phase": "0DP1",
+    "Task": "018",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Percent Dispersion",
+    "Phase": "0DP1",
+    "Task": "019",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Compaction",
+    "Phase": "0DP1",
+    "Task": "020",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Compaction & CBR",
+    "Phase": "0DP1",
+    "Task": "021",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Aggresivity",
+    "Phase": "0DP1",
+    "Task": "022",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "UCS Soil",
+    "Phase": "0DP1",
+    "Task": "023",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Triaxial (3 Stage SCU with PP)",
+    "Phase": "0DP1",
+    "Task": "024",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Point Load Strength Index",
+    "Phase": "0DP1",
+    "Task": "025",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "UCS Rock (inc Modulus)",
+    "Phase": "0DP1",
+    "Task": "026",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Sample Crushing",
+    "Phase": "0DP1",
+    "Task": "027",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Main Roads 4 Pt CBR",
+    "Phase": "0DP1",
+    "Task": "028",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Slake Durability",
+    "Phase": "0DP1",
+    "Task": "029",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Additional Sample Preparation",
+    "Phase": "0DP1",
+    "Task": "030",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Cone Pentrometer (LL, PL, PI,LS)",
+    "Phase": "0DP1",
+    "Task": "031",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Project Manager",
+    "Phase": "0DP1",
+    "Task": "032",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Project Principal",
+    "Phase": "0DP1",
+    "Task": "033",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Drafting Logs",
+    "Phase": "0DP1",
+    "Task": "034",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Drafting Plans",
+    "Phase": "0DP1",
+    "Task": "035",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Checking Logs & Plans",
+    "Phase": "0DP1",
+    "Task": "036",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Downhole Seismic Analysis",
+    "Phase": "0DP1",
+    "Task": "037",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Lab Testing Management/Scheduling",
+    "Phase": "0DP1",
+    "Task": "038",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Principal Report Reviewing",
+    "Phase": "0DP1",
+    "Task": "039",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Senior Engineer Reporting",
+    "Phase": "0DP1",
+    "Task": "040",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Engineer Reporting",
+    "Phase": "0DP1",
+    "Task": "041",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Typing/Collating of Reports",
+    "Phase": "0DP1",
+    "Task": "042",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Accomodation (if not provided by the Cli",
+    "Phase": "0DP1",
+    "Task": "043",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Local Travel",
+    "Phase": "0DP1",
+    "Task": "044",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Airfares",
+    "Phase": "0DP1",
+    "Task": "045",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Sub Contractors Management Fee",
+    "Phase": "0DP1",
+    "Task": "046",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  },
+  {
+    "Id": 0,
+    "ProjectNumber": "0074840.00",
+    "Name": "Materials",
+    "Phase": "0DP1",
+    "Task": "098",
+    "ProjectManagerName": "Colin Turnbull",
+    "ProjectManagerVisionId": "S01181",
+    "HasSublevels": false
+  }
+]

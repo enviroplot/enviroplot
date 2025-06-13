@@ -1,0 +1,133 @@
+@import 'styles/shared.scss';
+
+#result-page {
+  .tools {
+    .guidelines-tools {
+      display: flex;
+
+      .potential-use {
+        border-right: 1px solid #dee2e6;
+        text-align: center;
+        padding-right: 0.5rem;
+      }
+      .display-buttons {
+        display: flex;
+        .column {
+          display: flex;
+          flex-direction: column;
+          .btn-link {
+            min-height: 1.5rem;
+          }
+        }
+      }
+      .criteria-tile {
+        margin-left: 0.5rem;
+      }
+      .extra-title {
+        font-weight: 500;
+        font-size: 0.8rem;
+      }
+    }
+    .criteria-tile {
+      display: flex;
+
+      .form-group {
+        padding: 0.2rem;
+      }
+    }
+  }
+}
+
+.table-container {
+  display: flex;
+
+  .right-to-left {
+    direction: rtl;
+  }
+
+  .half-width-with-scroll {
+    width: 50%;
+    overflow-x: scroll;
+  }
+
+  .main-table.fixed {
+    overflow-x: hidden;
+    table-layout: fixed;
+    thead,
+    tbody tr {
+      table-layout: fixed;
+    }
+    thead {
+      white-space: nowrap;
+    }
+    tbody {
+      td {
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+
+    th.indent,
+    td.indent {
+      width: $table-indent-width;
+    }
+
+    th.code,
+    td.code {
+      width: 5rem;
+    }
+
+    th.group,
+    td.group {
+      width: 5rem;
+    }
+
+    th.chemical,
+    td.chemical {
+      width: 11rem;
+    }
+
+    th.chemical,
+    td.chemical::after {
+      content: title;
+    }
+
+    th.units,
+    td.units {
+      width: 2.5rem;
+    }
+
+    th.sample-cell,
+    td.sample-cell {
+      width: 5rem;
+    }
+
+    th.stat,
+    td.stat {
+      width: 4rem;
+    }
+    th.stat.info {
+      background-color: $table-cell-orange;
+    }
+
+    td.stat.info {
+      background-color: $table-row-hover;
+    }
+
+    td.stat.info {
+      .form-group {
+        margin-bottom: 0;
+
+        .form-control {
+          font-size: 0.8rem;
+          padding: 0.1rem;
+        }
+      }
+    }
+  }
+
+  .form-control {
+    font-size: 0.5rem;
+    height: 1.5rem;
+  }
+}

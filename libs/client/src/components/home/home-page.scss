@@ -1,0 +1,71 @@
+@import 'styles/shared.scss';
+
+#home-page {
+  .tools {
+    .tile {
+      .file-buttons {
+        display: flex;
+        .dropdown .dropdown-toggle::after {
+          display: none;
+        }
+      }
+    }
+  }
+
+  #project-details {
+    .title {
+      margin-bottom: 1.5rem;
+    }
+
+    .container-fluid {
+      margin-top: 0.2rem;
+      font-size: 0.8rem;
+      border: 1px solid lightgrey;
+      min-height: 15rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .container-fluid {
+      .form-group {
+        display: flex;
+        align-items: center;
+        margin-bottom: 0.8rem;
+
+        label {
+          font-size: 0.8rem;
+          min-width: 7rem;
+        }
+        .form-control {
+          line-height: normal;
+          font-size: 0.8rem;
+        }
+      }
+    }
+
+    .container-fluid.files {
+      overflow-y: scroll;
+      justify-content: center;
+
+      .row {
+        margin-bottom: 0.5rem;
+      }
+
+      .sample-file-name,
+      .chemistry-file-name {
+        user-select: text;
+      }
+
+      .btn-remove {
+        padding: 0rem;
+      }
+    }
+  }
+}
+
+#project-search-dialog {
+  .modal-body {
+    > div {
+      margin-bottom: 2rem;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+@import 'styles/shared.scss';
+
+#duplicate-dialog {
+  .modal-body {
+    font-size: 0.8rem;
+
+    .row {
+      align-items: baseline;
+    }
+    .form-control {
+      font-size: 0.8rem;
+      height: auto;
+    }
+  }
+}

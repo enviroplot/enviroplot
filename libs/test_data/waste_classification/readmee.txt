@@ -1,0 +1,1 @@
+All reported colours should be present.

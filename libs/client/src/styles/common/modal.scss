@@ -1,0 +1,16 @@
+.modal {
+  .modal-content {
+    .modal-header {
+      padding: 0.5rem 0.7rem;
+
+      .modal-title {
+        font-size: 0.8rem;
+      }
+    }
+
+    .modal-footer {
+      padding: 0.5rem 0.7rem 0.7rem;
+      border-top: none;
+    }
+  }
+}

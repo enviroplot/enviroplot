@@ -1,0 +1,24 @@
+{
+  "data": {
+    "Sample Page": {
+      "data": [
+        {
+          "key": "selectAll",
+          "name": "Select All",
+          "hotKeys": ["ctrl+a"]
+        },
+        {
+          "key": "selectMultiple",
+          "name": "Select Multiple",
+          "hotKeys": ["ctrl+click"]
+        },
+        {
+          "key": "selectSingle",
+          "name": "Select Single",
+          "hotKeys": ["click"]
+        }
+      ],
+      "pages": ["sample_page"]
+    }
+  }
+}
