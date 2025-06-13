@@ -1,12 +1,12 @@
 import * as _ from 'lodash';
 
 import {Row, Worksheet} from 'exceljs';
-import * as constants from '../constants/constants';
-import * as literals from '../constants/literals';
-import {UNITS as U} from '../constants/constants';
+import * as constants from './constants.js';
+import * as literals from './literals.js';
+import { UNITS as U } from './constants.js';
+import ValueAbbreviations from './valueAbbreviations.js';
 
-import utils from '../utils';
-const {format, parse} = utils.loadModule('date-fns');
+import { format, parse } from 'date-fns';
 
 export default {
   parseDateTime,

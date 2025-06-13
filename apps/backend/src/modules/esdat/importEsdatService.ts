@@ -1,13 +1,18 @@
 import * as _ from 'lodash'
-import readerHelper from './readerHelper'
-import * as constants from '../constants/constants'
-import * as literals from '../constants/literals'
-import utils from '../utils'
-import { Row, Workbook } from 'exceljs'
-import unitsConverter from '../criteria/unitsConverter'
-import extras from '../criteria/extras'
+import readerHelper from './readerHelper.js'
+import * as constants from './constants.js'
+import { Readable } from 'node:stream'
+let ExcelJS: any
+async function getExcelJS() {
+  if (!ExcelJS) {
+    const mod = await import('exceljs/lib/exceljs.nodejs.js')
+    ExcelJS = mod.default ?? mod
+  }
+  return ExcelJS
+}
+import unitsConverter from '../criteria/unitsConverter.js'
+import extras from '../criteria/extras.js'
 
-const Excel = utils.loadModule('exceljs')
 
 export default {
   readCSVFileNormalValues,
@@ -16,24 +21,25 @@ export default {
 }
 
 async function readCSVFileNormalValues(
-  samplePath: string,
-  chemistryPath: string,
+  sampleStream: Readable,
+  chemistryStream: Readable,
   skip: boolean,
   assessmentType: any,
   seedData: any,
 ) {
-  const result: any = await readCSVSampleFile(samplePath)
+  const result: any = await readCSVSampleFile(sampleStream)
   if (!result) return false
-  await readAndSetChemicalData(chemistryPath, result, skip, assessmentType, seedData)
+  await readAndSetChemicalData(chemistryStream, result, skip, assessmentType, seedData)
   return result
 }
 
-async function readCSVSampleFile(samplePath: string) {
-  const workbook: Workbook = new Excel.Workbook()
-  await workbook.csv.readFile(samplePath)
+async function readCSVSampleFile(sampleStream: Readable) {
+  const { Workbook } = await getExcelJS()
+  const workbook = new Workbook()
+  await workbook.csv.read(sampleStream)
   const ws = workbook.worksheets[0]
   const readResult: any = { samples: [] }
-  ws.eachRow((wsRow: Row, idx: number) => {
+  ws.eachRow((wsRow: any, idx: number) => {
     if (idx <= 1) return
     const row: any[] = wsRow.values as any[]
     row.shift()
@@ -57,16 +63,17 @@ async function readCSVSampleFile(samplePath: string) {
 }
 
 async function readAndSetChemicalData(
-  chemistryPath: string,
+  chemistryStream: Readable,
   result: any,
   skip: boolean,
   assessmentType: any,
   seedData: any,
 ) {
-  const workbook: Workbook = new Excel.Workbook()
-  await workbook.csv.readFile(chemistryPath)
+  const { Workbook } = await getExcelJS()
+  const workbook = new Workbook()
+  await workbook.csv.read(chemistryStream)
   const ws = workbook.worksheets[0]
-  ws.eachRow((wsRow: Row, idx: number) => {
+  ws.eachRow((wsRow: any, idx: number) => {
     if (idx <= 1) return
     const row: any[] = wsRow.values as any[]
     row.shift()
